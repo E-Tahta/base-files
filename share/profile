@@ -4,12 +4,12 @@
 if [ "`id -u`" -eq 0 ]; then
   PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 else
-  PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+  PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/games:/usr/games"
 fi
 export PATH
 
-if [ "$PS1" ]; then
-  if [ "$BASH" ] && [ "$BASH" != "/bin/sh" ]; then
+if [ "${PS1-}" ]; then
+  if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
     # The file bash.bashrc already sets the default PS1.
     # PS1='\h:\w\$ '
     if [ -f /etc/bash.bashrc ]; then
