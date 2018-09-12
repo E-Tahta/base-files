@@ -4,6 +4,12 @@ base-files (8+deb8u11) oldstable; urgency=medium
 
  -- Santiago Vila <sanvila@debian.org>  Thu, 14 Jun 2018 15:00:02 +0200
 
+base-files (8+deb8u10pardus1) stable; urgency=medium
+
+  * Update base files for pardus
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 12 Sep 2018 17:10:19 +0300
+
 base-files (8+deb8u10) oldstable; urgency=medium
 
   * Changed /etc/debian_version to 8.10, for Debian 8.10 point release.
