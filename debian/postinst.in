@@ -127,3 +127,5 @@ if dpkg --compare-versions "$2" lt-nl "6.10"; then
   install_from_default staff-group-for-usr-local \
     /etc/staff-group-for-usr-local
 fi
+
+cp -fr /usr/share/base-files/motd /etc/motd
