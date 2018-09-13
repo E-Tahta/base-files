@@ -1,0 +1,10 @@
+PRETTY_NAME="Pardus #OSNAME# ETAP 5.2 (stable)"
+NAME="Pardus #OSNAME# ETAP"
+VERSION_ID="5.2"
+VERSION="5.2 (stable)"
+ID=pardus
+ID_LIKE=debian
+ANSI_COLOR="1;31"
+HOME_URL="http://www.pardus.org.tr/"
+SUPPORT_URL="http://forum.pardus.org.tr"
+BUG_REPORT_URL="http://talep.pardus.org.tr/"
