@@ -1,4 +1,5 @@
 Vendor: Pardus
-Vendor-URL: http://pardus.org.tr/
+Vendor-URL: http://www.pardus.org.tr/
 Parent: debian
-Bugs: http://bugs.pardus.org.tr
+Bugs: http://talep.pardus.org.tr
+
