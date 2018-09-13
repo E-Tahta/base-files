@@ -1,3 +1,11 @@
+base-files (9.10pardus5) stable; urgency=medium
+
+  * Import version from Pardus onyedi and make the changes
+  * Update drone.yml for etap
+  * Update control file
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 13 Sep 2018 11:01:01 +0300
+
 base-files (9.10pardus4) onyedi; urgency=medium
 
   * Change bug report URL to our new talep.pardus.org.tr
