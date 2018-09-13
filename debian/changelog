@@ -1,3 +1,13 @@
+base-files (8.12pardus1) stable; urgency=medium
+  * Change version to 8.12
+  * Update base files for pardus
+  * Update changelog for 8+deb8u9pardus1 release
+  * Update changelog for 8+deb8u10pardus1 release
+  * Pardus CI implementation
+  * Update issue and os-release information
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 13 Sep 2018 10:20:40 +0300
+
 base-files (8+deb8u11) oldstable; urgency=medium
 
   * Changed /etc/debian_version to 8.11, for Debian 8.11 point release.
