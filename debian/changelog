@@ -1,3 +1,9 @@
+base-files (8.12pardus4) stable; urgency=medium
+
+  * Fix vendorfile name
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 14 Sep 2018 14:02:59 +0300
+
 base-files (8.12pardus3) stable; urgency=medium
 
   * Update postinst script
